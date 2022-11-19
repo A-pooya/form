@@ -1,0 +1,135 @@
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-image: url("../../../public/images/invest2.jpg");
+   background-size: cover;
+   flex-direction: column;
+}
+
+
+.form label {
+    font-family: IRANSansFarsi;
+    color: white;
+}
+
+.form p {
+    font-family: IRANSansFarsi;
+    color: white;
+}
+
+.form input {
+    font-family: IRANSansFarsi;
+    color: white;
+}
+
+
+.contentContainer {
+    width: 50%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contentContainer p {
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    height: 80%;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h3 {
+    margin-top: 3rem;
+    color: white;
+}
+
+.secondContainer input[type=radio] {
+    margin: 0 1rem;
+}
+
+
+.secondContainer input[type=text] {
+    border-radius: 1rem;
+    width: 80%;
+    height: 20px;
+    padding: .3rem;
+    border: 1px solid white;
+    outline: none;
+    color: black;
+}
+
+
+.secondContainer input[type=text]:focus {
+    background-color: skyblue;
+
+}
+
+.secondContainer input[type=number] {
+    border-radius: 1rem;
+    width: 80%;
+    height: 20px;
+    padding: .3rem;
+    border: 1px solid white;
+    outline: none;
+    color: black;
+}
+
+.secondContainer input[type=number]:focus {
+    background-color: skyblue;
+
+}
+
+.secondContainer h3 {
+    text-align: right;
+    font-family:IRANSansFarsi ;
+}
+
+.secondContainer p {
+    text-align: right;
+    font-family:IRANSansFarsi ;
+}
+
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstRadioContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondContainer input{
+    direction: rtl;
+}
+
+.secondRadioContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thirdRadioContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
